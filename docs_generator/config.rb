@@ -48,5 +48,5 @@ configure :build do
   # Fingerprint assets
   activate :asset_hash
 
-  # set :http_prefix, '/balloonist'
+  set :http_prefix, '/balloonist'
 end
