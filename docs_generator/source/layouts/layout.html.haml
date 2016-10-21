@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{content: 'IE=edge', 'http-equiv' => 'X-UA-Compatible'}
+    %meta{charset: 'utf-8'}
+    %meta{content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no', name: 'viewport'}
+    %title= 'Balloonist'
+    %link{href: asset_path(:images, 'favicon/favicon-32x32.png'), rel: 'icon', sizes: '32x32', type: 'image/png'}
+    %link{href: asset_path(:images, 'favicon/favicon-16x16.png'), rel: 'icon', sizes: '16x16', type: 'image/png'}
+    %link{href: '//fonts.googleapis.com/css?family=Lato:300,400', rel: 'stylesheet', type: 'text/css'}
+    = stylesheet_link_tag :site
+    = javascript_include_tag :all
+  %body
+    .layout
+      .layout--head
+      .layout--body
+        = yield
+      .layout--tail
