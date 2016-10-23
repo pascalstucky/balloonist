@@ -1,5 +1,5 @@
 # Balloonist
-Share your belongings with others. Visit the [project site](https://balloonist.slack.com)
+Share your belongings with others. Visit the [project site](https://neonmate.github.io/balloonist/)
 or go directly to the [balloonist](https://balloonist.herokuapp.com/) app.
 
 ## Project management
