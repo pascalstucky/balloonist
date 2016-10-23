@@ -3,3 +3,6 @@ Share your belongings with others. Read more https://neonmate.github.io/ballooni
 
 ## Docs
 Run `middleman build` inside the docs_generator folder and push.
+
+## Slack
+https://balloonist.slack.com
